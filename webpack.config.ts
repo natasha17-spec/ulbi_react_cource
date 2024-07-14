@@ -6,7 +6,8 @@ const paths: BuildPaths = {
     entry: path.resolve(__dirname, 'src', 'index.tsx'),
     build: path.resolve(__dirname, 'build'),
     html: path.resolve(__dirname, './src/public', 'index.html'),
-    server: path.resolve(__dirname, './src/public')
+    server: path.resolve(__dirname, './src/public'),
+    src: path.resolve(__dirname, './src')
 }
 
 
